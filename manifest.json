@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Conversor de Temperatura",
+  "description": "Extensão que permite ao usuário converter temperatuas do Celsius para o Fahrenheit e vice-versa",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html", 
+    "default_icon": "temperatura01.png"
+  }
+}

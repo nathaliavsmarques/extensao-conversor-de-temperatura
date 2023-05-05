@@ -1,0 +1,74 @@
+@charset "UTF-8"; 
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgb(223, 233, 240), rgb(31, 100, 190));
+        
+}
+
+#title {
+    font-size: .9rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 1rem;
+}
+
+#subtitle {
+    font-size: 1rem;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+#container-input {
+    height: 20vh;
+    text-align: center;
+    margin-top: 5rem ;
+}
+
+#temperatura {   
+    text-align: center;
+    font-size: 1.5rem;
+    width: 15rem;
+    height: 3rem;
+    margin: 2rem;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+   
+}
+
+#container-temperature {    
+    margin-top: 4rem;
+    height: 10vh;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    
+}
+#celsius img, #fahrenheit img {
+    width: 4rem;
+    height: 4rem;
+    padding:4rem 1rem 3rem 0rem;   
+    
+}
+
+#celsius:hover, #fahrenheit:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#text {
+    font-size: 1.8rem;
+    text-align: center;
+    width: 50vw;
+    height: 20vh;
+    padding-top: 3rem;
+    margin: auto;
+}
